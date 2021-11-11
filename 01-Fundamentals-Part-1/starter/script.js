@@ -109,3 +109,34 @@ const markHigherBMI = BMI1 > BMI2;
 console.log(BMI1);
 console.log(BMI2);
 console.log(markHigherBMI, "point");
+
+const first = "lee";
+const job = "mac-pro";
+
+const result = `${first} ${job}`;
+console.log(result);
+
+console.log(`never mind!`);
+console.log(`never 
+mind!`);
+
+const age = 15;
+const isOldEnough = age >= 18;
+
+if (isOldEnough) {
+  console.log("go!");
+} else {
+  console.log("rest go");
+}
+
+const birth = 1991;
+
+let century;
+
+if (birth <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+
+console.log(century);
